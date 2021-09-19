@@ -21,7 +21,7 @@ namespace WinFormsApp1
 
         private void button1_Click(object sender, EventArgs e)
         {
-            string connectionString = "Data Source=rnd2020;Initial Catalog=kath3;User ID=unisoft;Password=unisoft";
+            string connectionString = "Server=DESKTOP-GO1MARS;Database=DapperExample;Integrated Security=true";
             SqlConnection connection = new SqlConnection(connectionString);
             connection.Open();
 
